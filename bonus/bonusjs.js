@@ -20,6 +20,6 @@ closeModale.addEventListener('click',function(){
 
 const showYes=document.querySelector('.risposte1');
 showYes.addEventListener('click',function(){
-    document.querySelector('.riposta-affermativa').style.display="block";
+    document.querySelector('.risposta-affermativa').style.display="block";
     document.querySelector('.modale').style.display="none";
 })
