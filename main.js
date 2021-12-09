@@ -19,4 +19,4 @@ button.addEventListener('click',function(){
 const buttonClosed=document.querySelector('.fa-times');
 buttonClosed.addEventListener('click',function () {
     document.querySelector('.hamburger-menu').style.display="none";
-})
+});

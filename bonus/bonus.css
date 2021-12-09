@@ -17,6 +17,7 @@ header {
 }
 .header-left {
     width: 20%;
+    cursor: pointer;
 }
 .header-right {
     width: 80%;
@@ -101,4 +102,77 @@ header {
     .hamburger-menu.active {
         display: block;
     }
+}
+.modale{
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: none;
+    position: relative;
+}
+.logo img{
+    width: 30%;
+}
+.logo{
+    text-align: center;
+    margin-top: 40px;
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+.flex{
+    display: flex;
+    width: 400px;
+    margin: 0 auto;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.risposte1,.risposte2{
+    background-color: red;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    width: 80px;
+    height: 20px;
+    text-align: center;
+    
+}
+.risposte3{
+    background-color: red;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    width: 150px;
+    height: 20px;
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+    margin-top: 30px;
+}
+.pulsante-chiusura{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+.risposta-affermativa{
+    height: 400px;
+    width: 600px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: none;
+}
+.risposta-affermativa img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
 }
